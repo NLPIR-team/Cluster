@@ -22,7 +22,7 @@ public class LJCluster {
 		}
 	}
 	
-	public static boolean CLUS_AddContent(String sText, String sSignature){
+	public static boolean addContent(String sText, String sSignature){
 		if(state){
 			return CLJClusterLibrary.Instance.CLUS_AddContent(sText, sSignature);
 		}else
